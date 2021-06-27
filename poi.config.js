@@ -24,7 +24,7 @@ module.exports = {
   devServer: {
     proxy: {
       "/api": {
-        target: "https://careapi.coronasafe.in",
+        target: "http://localhost:8000",
         changeOrigin: true,
       },
     },
